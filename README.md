@@ -1,2 +1,2 @@
 # IS-Lez-Decor
-An example of design pattern decorator
+An example of design pattern Decorator
