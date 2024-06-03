@@ -1,8 +1,8 @@
 /** Prodotto e' un Component per il design pattern Decorator */
 public interface Prodotto {
-    public void printNome();
+    public String id();
 
-    public double getCosto();
+    public double costo();
 
-    public Prodotto getWrapped();
+    public Prodotto wrapped();
 }

@@ -6,10 +6,11 @@ public class Formatta extends Decor {
     }
 
     @Override
-    public void printNome() {
+    public String id() {
         System.out.print("[Formatta] ");
-        super.printNome();
-        System.out.println(" comprensivo di tasse");
+        String id = super.id();
+        System.out.println(id+" comprensivo di tasse");
+        return id;
     }
 
 }

@@ -5,8 +5,8 @@ public class Sconto extends Decor {
     }
 
     @Override
-    public double getCosto() {
+    public double costo() {
         System.out.print("[Sconto] ");
-        return super.getCosto() * 0.95;
+        return super.costo() * 0.95;
     }
 }

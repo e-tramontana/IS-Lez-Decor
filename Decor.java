@@ -11,20 +11,20 @@ public class Decor implements Prodotto {
     }
 
     @Override
-    public void printNome() {
+    public String id() {
         System.out.print("[Decor] ");
-        myComp.printNome();
+        return myComp.id();
     }
 
     @Override
-    public double getCosto() {
+    public double costo() {
         System.out.print("[Decor] ");
-        return myComp.getCosto();
+        return myComp.costo();
     }
 
     /* Toglie lo strato esterno */
     @Override
-    public Prodotto getWrapped() {
+    public Prodotto wrapped() {
         System.out.print("[Decor] ");
         return myComp;
     }
