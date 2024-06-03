@@ -7,3 +7,5 @@ Un esempio di implementazione del *design pattern* **Decorator**. L'interfaccia 
 La classe `Produttore` è un **Creator** per il *design pattern* **Factory Method**.
 
 La classe `MainBiglietti` è una classe che usa il *design pattern* **Decorator**.
+
+![UML Class Diagram](decoratorBiglietto.jpg "Diagramma UML delle classi")
